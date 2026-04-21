@@ -1,0 +1,17 @@
+{
+  "engine": "google_flights",
+  "departure_id": "DMM",
+  "arrival_id": "ALA",
+  "outbound_date": "2026-01-10",
+  "return_date": "2026-01-20",
+  "adults": "2",
+  "children": "0",
+  "currency": "SAR",
+  "gl": "sa",
+  "hl": "en",
+  "type": "1",
+  "travel_class": "1",
+  "sort_by": "2",
+  "api_key": ""
+}
+

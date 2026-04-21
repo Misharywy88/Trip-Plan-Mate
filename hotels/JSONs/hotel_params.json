@@ -1,0 +1,12 @@
+{
+  "engine": "google_hotels",
+  "q": "Hotels in Gizan",
+  "check_in_date": "2026-02-09",
+  "check_out_date": "2026-02-19",
+  "adults": "1",
+  "children": "0",
+  "currency": "SAR",
+  "gl": "sa",
+  "hl": "en",
+  "api_key": ""
+}

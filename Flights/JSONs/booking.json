@@ -1,0 +1,273 @@
+{
+  "search_metadata": {
+    "id": "693d971f65f701da7d49e193",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/9311d45f4999b119/693d971f65f701da7d49e193.json",
+    "created_at": "2025-12-13 16:41:03 UTC",
+    "processed_at": "2025-12-13 16:41:03 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=sa&curr=SAR&tfs=CBwQAho_EgoyMDI2LTAxLTE5Ih8KA0RNTRIKMjAyNi0wMS0xORoDSkVEKgJGMzIDMzI0agcIARIDRE1NcgcIARIDSkVEGj8SCjIwMjYtMDEtMjIiHwoDSkVEEgoyMDI2LTAxLTIyGgNETU0qAkYzMgMzMDlqBwgBEgNKRURyBwgBEgNETU1CAQFIAXABmAEB&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/9311d45f4999b119/693d971f65f701da7d49e193.html",
+    "prettify_html_file": "https://serpapi.com/searches/9311d45f4999b119/693d971f65f701da7d49e193.prettify",
+    "total_time_taken": 2.37
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "sa",
+    "type": "1",
+    "departure_id": "DMM",
+    "arrival_id": "JED",
+    "outbound_date": "2026-01-19",
+    "return_date": "2026-01-22",
+    "travel_class": 1,
+    "adults": 1,
+    "children": 0,
+    "booking_token": "WyJDalJJZGpRMFJIRnRTRGRaZUdkQlNVWnRZbmRDUnkwdExTMHRMUzB0TFMxdmEyeHJOa0ZCUVVGQlIzczViSGhuU0ZwVFYwTkJFZ1ZHTXpNd09Sb0xDTVRjQXhBQ0dnTlRRVkk0SEhDQWZ3PT0iLFtbIkRNTSIsIjIwMjYtMDEtMTkiLCJKRUQiLG51bGwsIkYzIiwiMzI0Il1dLFtbIkpFRCIsIjIwMjYtMDEtMjIiLCJETU0iLG51bGwsIkYzIiwiMzA5Il1dXQ==",
+    "currency": "SAR",
+    "sort_by": "1"
+  },
+  "selected_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "King Fahd International Airport",
+            "id": "DMM",
+            "time": "2026-01-19 02:00"
+          },
+          "arrival_airport": {
+            "name": "King Abdulaziz International Airport",
+            "id": "JED",
+            "time": "2026-01-19 04:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320",
+          "airline": "flyadeal",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+          "travel_class": "Economy",
+          "flight_number": "F3 324",
+          "ticket_also_sold_by": [
+            "Saudia"
+          ],
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 106 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 107000,
+        "typical_for_this_route": 107000,
+        "difference_percent": 0
+      },
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "King Abdulaziz International Airport",
+            "id": "JED",
+            "time": "2026-01-22 13:00"
+          },
+          "arrival_airport": {
+            "name": "King Fahd International Airport",
+            "id": "DMM",
+            "time": "2026-01-22 14:55"
+          },
+          "duration": 115,
+          "airplane": "Airbus A320",
+          "airline": "flyadeal",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+          "travel_class": "Economy",
+          "flight_number": "F3 309",
+          "ticket_also_sold_by": [
+            "Saudia"
+          ],
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 108 kg"
+          ]
+        }
+      ],
+      "total_duration": 115,
+      "carbon_emissions": {
+        "this_flight": 108000,
+        "typical_for_this_route": 108000,
+        "difference_percent": 0
+      },
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png"
+    }
+  ],
+  "baggage_prices": {
+    "together": [
+      "1 free carry-on"
+    ]
+  },
+  "booking_options": [
+    {
+      "together": {
+        "book_with": "flyadeal",
+        "airline": true,
+        "airline_logos": [
+          "https://www.gstatic.com/flights/airline_logos/70px/F3.png"
+        ],
+        "marketed_as": [
+          "F3 324",
+          "F3 309"
+        ],
+        "price": 610,
+        "baggage_prices": [
+          "1 free carry-on"
+        ],
+        "booking_request": {
+          "url": "https://www.google.com/travel/clk/f",
+          "post_data": "u=ADowPOIPa7Fj9IiwQKCmn--zHfVhPNjJ6rzq8KX1fY2LNdFfGauLs6l-MvGUaSTlRs3LWDlwhp_GXEL_YG3Zo-wmJpJMd9L9GvDE-Xd9G9nQwc_CMfu-MwdBW9N0SHg37n8GWKg94CAaMl9rzCkubvglUH3cW8x7j0cTNh_76AYE3aiuEe8zso7hx2QM19ARVolvGU2xOGDcRfZc1aZ76fHc-Y-M-FTyLad6hOHmON1XlV0Zm1xtmmSiguHMTKHMfHN27AcP7vZAcrIsUJtwJ47AaPJAoorMD41s6ABpK3mWHF-E-vfcZnQNqzYAFgUFWdVo84dKC-ekF1JOcLX_4OQKaT7I1C00aCtTlepPRdE5wfna6qmM46ITpLWUJPpfFeUXUdDhR3PsnOQjlbJ2PU7-KLbnK7W_rocuFO0-lOm0FgzOk5QFvPnb9ASefCujR4zKvjauQe3YVXzRyMMeXF3DyR2d4BTkpxnFqgnp_BjohwiXOkIYGAXSbdw2PFCEhmPmBIVs3Jp68cUlOfmVi8EzT42m-kVbcA3_roIQzSJ_4JpNwP-jH16PZ6qR7y67Iyw0XeU3TOZlJniMPfsEU45Bc9Pl83vWd9ZsPnSueoDU5V7_1slBMYt2oLGOsWYKOVuljO5TlE26cRuTtNWgtXKcR4bpZvHiW3LAiO8x2VLQzWJ1TdSRNjI3sxGC3kFt99KSkC8bA3g_RACWCReIYmA84GS9Wksn2N1vVLR7oLirA7m4P70saXqSIjRMLM-OTvXZa23ZuJ-AIQv8czabHbw86cOe1sdlDW2nYfHwKLooHY4pBTbPaplGXm7bQ0VTUZwAp5vHJ2PFbaR0sHJJl3mK0fAbkmhNVsnjqGZu6g3LO8I4w8-Bm2fiuV1G7U9EgAmZ1HHEsKxj_fQIwNnrmeZQeZi5UQYRjegctf9Lm93U7-rudjschRY8d-3ILZYTpqQaEswY3ecl5XUU_xLzuHjXt9dJv1IZwd90-X0EEmKiZkT1eI_S41aXzqns9Zqr3BwXoz35b4i_uBUKCpX_K5dWMnCjeeouRTAGUhGuRBGB8LYeLbvSuLQInLNXfqfPOHnTD4rvOophLwakfAMx1DOgvPbWSRXBgTHbnqlzOGc2hXv4rxxSK_yrW0MRVHwzQO06huJcfZzIu9NsM9ztvGYE_aFsiXu-NCtD8FXotSoKoIgGpa_jT0WwGVUO92xIViKUt2b_cM8VD3pQ2DVbirFB_guAFcu2HDK7KazizjA6QAOhg0nrkFxrrhgnG0EEqmkihrHa39roz8rA55WGSrDpUOwzrrNnvowFf0zp9cJf9QxnMZJKZeguLm3bjPAu3a0HS4cK9vDtOcaHkQ_y63U8qM2sK4gL_39yokRLpL7pSszXqsB2tD9LNQzc1PILeFKL6DazPGTX1omBQHmhPpvYMpzm88d0Bem3IpiN_LD46vU9pQDD2b7oMfgXnisaEUMpQjI7VqFYs8Gr1ETz5gvZD26NM6mVN1JVB33qh8hJFfliFfaiGdzwQEfJOuFgsblonswRVFXJYl3c5u3om6eL1oUcWYljQ7chjwWhjQG6kKDeusWaEVe1nhKNyeb7_W4aLkIyucyw1W2d20OG3iZutaBg9KNYq4RM6302JIwqIIv4D4QPNq4917WQPULskCGp9MnmzDawTA7cO4pMclNtIb-gggxaSj3sFaU5Lxc-EAgtmkvEMKxXeq5lLB0sP8EGut3HetBVZjHEXy39jztUaGWh98x0K3wEHOUacxe7uhCGk3UoCraMzsbQjQho1k7YK6mUkqB1FPBHoeU1W4o2Hfo4Hpt8y4xA4-YbURHXinfdGrUiHQnYo72Jk1zRGg3hph2I_hDXHNQModixj1m2h59LMvcPPnLrL1N_PZHuW05vffotWLV8i8T9U5hc814JyslpLmXwhF2Fy38rh1FVwssrwzFJTnw-hmwykw6i_Fshi8V97Cs1Q95Vxsh14bZsmqaIZw7WfadlsFSb29jqOZCO4nuvSugmn-YdlMfGDWXus3tK1DviVZA0GTumJtUE2pg-8-djD4KRU5lu7ic17EQ7fz77sOClgoixrEU7oOewjE6LWZRE7ZluPCX0TK2gxTfGvTBXKzGQZ_PU0FIaDp3Ob26OiMEljgBhHCMQQiYwzKRUN0NRQmq40VtuN73W6yQPwdlQpulgyducloJL1P33vp7UWStZZDVdpDAlxEJoAwdzppTyg9JBbtof-47yNdFY450M8INbJb_Bzz-DaIdig_j5u1lIkQV_ds0cFEVeMBQxGtGbdWJ8Ofp8MIJTxzmQgPjRFfO54xzr2MsATTSRKHTwLP48FKhw9V7oq7R9p1BR-RgKJoNyxZ4L-5rpm2fxQwyZLslfBtEONihSW2jDESLNQv3DlmBR-HZmD1uBsgOIMaN_sDD9Yl4JBlHVGhWCN487_9DEAmd-QX4MvYsWZ-A0DQcCRv8_GowFntttOZ8vK_7G8WfN7fSfzb7tUu8kstDbmyDWIln67bqCn-7QYl495KypswUSTJETzXPFda1Zypi-cskqhb1WzsTflBCCQ8EkNitq2beS8qf78Dz-my6dJ0Z38RCLKCf64KauixOR6uXy9wt2pT2FyU7OMnFNAICYCT-aqzI92in82kJqMjKGf2GNxYI0_RaB-pBpoQawbDc0lx4nYQToMSL27e_Omj_yO6ARycTXR1rd3sVY4h9dqbdbeAWiXQ53vZwoaCj6fysAnxdf1prqmNozxIms2f20irFhQnNFeRyoD5w_KBptBIrPC4g6gNLAW0NFAehbc_YJQIOUIA8MkW0OAYVpJNQv-oIVQ14gG14NkACvnxzGNXqpsptKYDDGyi1Y1X75stCQ2Diz3QdYfq7qIOx6Ck3RVF3a45PCzI6wEdRoDNNyL-IqZEuLoOaLCe8SpDsPnptbHBUmiLCv8bpnx690pvFrCV9Ny2ESfM6NfAtmKmBnXm1M3uYkjX083g_eRG4wd-Y9"
+        }
+      }
+    },
+    {
+      "together": {
+        "book_with": "Saudia",
+        "airline": true,
+        "airline_logos": [
+          "https://www.gstatic.com/flights/airline_logos/70px/SV.png"
+        ],
+        "marketed_as": [
+          "SV 6627",
+          "SV 6618"
+        ],
+        "baggage_prices": [
+          "1 free carry-on",
+          "1st checked bag free"
+        ],
+        "booking_request": {
+          "url": "https://www.google.com/travel/clk/f",
+          "post_data": "u=ADowPOLRpsOfgdQ-h9hpWhIskHxcjEcx4CZAPC6c_jkZZCueXH59LVZEpqdsy4vOi9shfFzcH6Qs9L814U8BFDZcW97elxUm6GWpehaXFpWJc8Un52iWWs6Ut0VfelycOl8JWIAEGK-keyu_PNQhiaEpDDF_094gwUrncvsHL_iFyWAXBA5hfVW_VeSBR2PR8WbE-5Pv0dHyBQSoV1LM_kE6Tml0hW_sPXs17lnQhFALg5R4hL3am2KRIqKAlvIktbupmF5U_6FoOMDguB7H9yo51V5kRtrsWuRNoZ6bLzmQvqPoTMaAYbP6YdeK-lK80AhAIV03wKlR5GgvJoOnfO6O-_QtSHjIbytxJe8G8WB3nz1W1Na_hHRMj98ck9oLj9kq4fDA1Wwt_8Za2HKj8z6uuKjjCKMm0ANrMqHImN4m6Dcr6E5-K3RTTSaVfoOlwOs72z5Zqi4U7TEZOeArvmfDnGyakF74NlmJ2A4o_cBnGqA19OaCa6do947vLkAiL9iw3zhnTfGnz95pgxT6yq68NGsOFaDeGo-TpDZgpFvRKPUJa7JnGr_g9xdTrJOVe_iiUSclBf85FRlEe08_9eab-KNu2ct7gNlasnZWvzQiZhcT0GA3gnwP6FSyvskX9E8w4aeHDiDiI0v_R256WRMluQu1hxPy5zCAjqyRVkBF9CYOxCQ-xV3a3aATYJ6YC8n7i0HXHupK99pA7NVtMOUxlo4-OyWH2VAjwGujU3WL47-25YAxdtyuTQoaZPmneouWwMJ2UE_mB0jHERYlXwUtKOf9WRGGH40jqvpwqarli-TgRuA386M9l8xr_EWVygiQWPAfEvdxyjIXpn4aRAVk4qoSav43Ditp66WY_CZho9dNUV8Wdde7kPVzigP5pnk0vb5UQT7ujPbfOFJjQ1FsI78pg86gBgDrvODX_t_u25iH0I7cYxB82uxM1jtrMDcPCUa-gV2Nqx-XQdBPGy4dgtW4FGV-dyVpUTSYoEWDcX-HAd444oNVIv2hJQ5_4AxV2EDcA9wS73p_k1vdrEAsf7fXHL-TXnH3itrq3SaV3wg_Uam1UlxQAy5p-YePdWdEIc9Cua3scw4SeZnUvhKGxdq0d3tKfpUW3yodA8xzioX2S7jgs2hs1yRcY373XqZ5TqUextAAz1SQQQ9WL1NgUqBwHknErkP-d7vAArEc7EuyZuoMOFuTPzOC_AupdBO631UpWz69iG_0H8xKQN_WsjZA24rRp7TtjFWAmREj3ocky0vzQ_lJ7MSUZGiq0H6uEU1i1LnDyYzEqCSUAKs9Ri_cxFVaNam1iHUk-65eBeT52cPF-uhvxYLHBzTKUn0E5_ui28hfRwp01PMOXDufHeKmCfDgHDKFKP80PLA8N09rA0LhyFHGWkt1PkBB2UpVPjrNaGFacABU30-nPbq3z-Sca2W0GqzstfVormUtnndxxw-YclzxB0E3PZEwtViVLDvgZEgPLIObKsPGCWEhAtfLgPg73W2DSEryZ114t2Mz2X_59d0nbHjDcmxys1_PDUpyK17lOOFe_vbsRrrG2WHyXA-5vthPJXcBBEUXh3So74MUjwkVJgM8pUouk1hR3d0Rh7aDlhw_hK2xEx4alCyaUDIh4LSfV-78bOjAmmtLg5qEDt0p5xFK5LoBfZJJ-QDbbd6W_PEAbsIG0F4lGLGZNU8Xv79K3ynXqu5vrQe5D6ZYst2v0hEbpwvM_B9kOMDwr0uEJxoCSWSU132bGDim8BQHlq4QYyRqDw7359Fex3TLvuOJGWWYO8UrtJmoEuZmhy1KZMDQz6YYGBeEwgkYEFmmD0VfFPzkE6XeZH-bxf6MkQ4IpN43jslQiWTyVkFZ_BKTjtKtEi7myU_JOhevu3FB-KLAdXg_wa0LCQkebEixLVHxInB73xyiwgjvqt7OURuIvjpMI-zclpUt2BiPKVKShrem2QLFJOUwmbUYgrm-5KkmTeakqvTGJQehCzYHSpYYcQ3RWKxve30-Yz7GMuQZCtSGpGVOFbJzbGDDeJH51NdW9SRViCB4hdOtI4aFqnL0Ang3zp6iC0U_3Nqc9jlrjFpp0nGRoJ9xSEcH4TyVO9TZFL7j27e0WZBELC5AgN6zVbHGJ6Gmw8hJ1Efc6x7Vjk8wRt1SuoKBLqVJvuLk7yTFN-Juox-3LiUs69jZcnmBxOjBGzQgUmUfv0_37UhkvFntZ2pL-lw_VDqV27unwCV2Ine-2ZJMc7rGvjvZu9SJzCGk1kZdNeSuOOZGgZX2oP8b3_-J64BvI3la_aoPvkip0c3HC5Obpo-D4kYM6u_zzqtfQvVMtRyq1ToPbx6sTH3HAUFNTnVxK7IzDmEddggp12yYDc1k1orlzWh4CQTzQXThTTogVMeC1U0T2IcsdnAfmD1R5NuWlicOOB6EpQYDix7Efk8C2QqmcpivnLaY-qIi-zP2oeWYfTXW7jF8ENQS1m4BKaVX7cay0T7a38O_XqJCO6NFoFqXnNsxRcviFGBq9u_MGMcmCxTmEJNoDykL4Jb7GZee3GyDLCgGxuOKCWNWeZg05IKsrvZl5Z8fn1XSLRaYP2aO7IGdu4Ot09W_HXM3Vb5wBO3ZvSTy7PuHexUDKHAguKNZpajZwrE5ElU5aJOUALyY5Wa2JtKE-E5A2dVnOtFqY-nFH2gllaSmbNZuGBOki1AZL_0vyo6k92XqfLcS7pEjKRhvRDXasS7FeLxe6j2HtAim5F-rSbLEklMhZvRPj4TL-w2c-_Qo8Ldke8dH83XG6lp6W8oRhc8PLd7DWqF8tVwcSCPL_52ky7sBIpUES6aFnm2xO_ABzDhUspnXB2nl_4VCQGcu3mZlgdJ9Xf24lbV6NTD91f2AiFxDrAGYPR6MH28Sm_7HumsDRExrdcjmWVP_hcvsh4Uh01inDwwGkR9iLkL0B4dckOCmuGwu3Feoy3gv_ltgVvXeKslkDqePKbT3DATbIamvVeHCx2GIg18V6P2Tow9OnDWqQ1fADy7AfKmMS88LX78orMqE6_UzgU-GITH5TGBbW9ZyfPRUFQCBsEwxEVz5aD-1XHG1P1egE5aJY2T5mES0DdU2FbIEvAFdMZnUA7Hzb3mxG8dHUecH5tLYoUjaOctSLAa7Mbc1FzxZJxwxIOE-qhjtbwB7P-jwIVyRof_oS4PuqIMXy5qweMN5g4DCeS2OUs1At41Sj_iQ30hQp-uIEsCG_HJXMpwobDEZpMSxE_UoQuo0f5rQ2-ym24pSddu6bF3q1yED2Ktf2OmurBqkZ9U5SbA81AhooJGZU4xLnA9y04mbKCeZkPn91L7HzEBt9fHglZehsG73gJMlVCtddGY50DehT5mbm1fYJ9ec4Vy7AjuV31zRdV68e3BCgjIoMJSBaziIk3cmgOi1NaEhs7xK6FlGeRV-vCeedh_0Mit-oCLbyJ7xRDE8fQpFXACGmORWaFi0WmzBaPG7y9Gz8mC7TmenyJsYEkYROtFQrW2YuBLVGphLBHDfYOCKpmGcetoR7LJf9ZwnytOmOt0TK1cWUw4PmlfwLqgTu2TK79reRaW5oXaFxNKc-Z8g6y7zyXBMiLz34si3tIe_rFz5_nG9tg2BNCsU8ZUzn57ajnxuJYQLQNrNMe6YbJeThGKCROfrbIZ6UAWL67i0P8H_YLoOCRAO4WQaxlXdcI9iefxXIyZlaOS6qQK4oidfaB8dTkIkTIsTe9MmfHHBDY0xj7MbztcJEaVdNtsY7ufKzo44KuMfrDraQIYaayXFRCIn5ghuACyP2mT5i1cxKHgZGCO3h41KLTWWrUqXXDbUQTZZo7toysv_VlVEOOlESZcx1c5U7PX0b8PKzjEcv_LDCNHHmVKUPHn5aL4KYYX6aoBHBv0hFHCwKHPG0VDZ1WoUt0DATS4aoZNosDDITacBM_08ZtQJ4XS88LV1h7cqRR__K-F1dXcZkpo6myCxJA07WWjUpXniL1Ukc5DdZ5PaznLFcuS2IF5sSgZlIXrqbEoq8IMwoVJMKBIF-Cg3p8GpQorrSF-31t27EdCG3IxRgpFpy2zrNC-eKaOe9aJDzIayiAEtVX3rfa7efCRgh8ugpoBcMaEf8AheViWp-5okoiiP9wkwFu5oDAcW7vmnlah5GvuoHfonreofk-kew5Fi86afixg2MPqY7QdH4i3pE6rsmGeLQ52o3OOOBbCiArmony1leovVNSMxcdcVPwMQsxOWBYfsMgOJjZI0atQiLQsl7_EpqwncKDTbJIB1RX7U0ZUy0Lvq72LThqIbOpk4Dka2Zw1k3xb6Mxg067U5XgDiFqQuqv582juSB15QJyu2GH7a5HrZnC7fJujQ28h_lrifNGMSZZ7X-7uY_eZi2RxcIA-2KvUM3SxZvfFbejydKXJy66QT_iS8gcg2kfPLgAFy9e27T_ZhVUMul5bVIotdasXH-7RNYiclBWRFz1pq2G0tsYZ6Uf-z4c3L67WaJF_SnxnOqD7eAXEBbw28QvY2h8j9D9X0UJwGaVcXRLQfp1eaaB1gHgvofUp2ip76M2bmgTHjLVxvjAs6XaZKDg1osc9ObkLkt8UsMu2AKUhM2koX-9nlfuOaecRDLkiEuuV7DOjxodYYYTMmMbrH71C2rTFgqz0OiP_P-PNun7EzvQDuUAQRfs74Qu__XzJv-3l5bXbssKLloPrvBXX8n5HOxXpiOtFxuP9Jq4L_EHpe9p6JmNw20eST2UyyJjXV-_a9F2Oe_p1lbHmFZzb3UPxEWX_NZP4dbIlfZVqKDLIGeAD8n0_rcNd9jnj5Dg6c8FVCLoH2dhXldVorB7D36qcM3pY5F3Iq8lrpye2W2ZHeqK5jyB4ru7uYMn4sF2pPYbyVRoYkHnUxJX_SLJXNzxwHtVRN9bTOKYCFe6g02K4dlEQYFsaKCDp2W2WFB9YP3QrdrbBQw70Cmoo5vhgRUCfMLmCbHA0uUG_lUmyBSofjEbIYI2mN5byc7fbIm740gyL94HKKrOMo-ccf7ywE8Qr9e1D3EVTXLKveatbMryvgPcUbQBV8lUm0mZu2rDzeP-iiNwNVUnYL5RdZvvyFfuA8SUbX49KFFzvlrroHeKQycGMQ--J-Iq1sSUy2fnKGSWayj74n6D6XAKPjHT9RKGFnMbbk_C6IS95t4vnkjcRJGRmySS2cmQCsni2vbIfrzKwW0fLzx8CT8cLu2bwE7pLBeIhOjrNSKOyh8TAZS8mlpogYOph6Oy4c8WD5Csm1-h6J3-vMz9wIdNHhjAf25KhUKrvUEGMjt-06W9QgSNii_K7_rpmhtjN2rcuzWG4cdqyPGf_GZekgZx8pBOSIXw02ObGEr854tLdsp3j7AanrhPyYbHHhYHLLHpiwCuc1xTrtdnrHNUKp46vkxV62AImuheA_Ykm2IGw9k6cqo-klCMsjOqYNfMSm8xXz6w7Ko7eZRh-XlLjYwyoawOfNgrKEKnUojE0lF3TfDZzrMXWDZGY41LAgF-B3niU"
+        }
+      }
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 610,
+    "price_level": "typical",
+    "typical_price_range": [
+      550,
+      770
+    ],
+    "price_history": [
+      [
+        1763413200,
+        1273
+      ],
+      [
+        1763499600,
+        1273
+      ],
+      [
+        1763586000,
+        1273
+      ],
+      [
+        1763672400,
+        1265
+      ],
+      [
+        1763758800,
+        1273
+      ],
+      [
+        1763845200,
+        947
+      ],
+      [
+        1763931600,
+        947
+      ],
+      [
+        1764018000,
+        939
+      ],
+      [
+        1764104400,
+        876
+      ],
+      [
+        1764190800,
+        876
+      ],
+      [
+        1764277200,
+        876
+      ],
+      [
+        1764363600,
+        876
+      ],
+      [
+        1764450000,
+        876
+      ],
+      [
+        1764536400,
+        876
+      ],
+      [
+        1764622800,
+        855
+      ],
+      [
+        1764709200,
+        855
+      ],
+      [
+        1764795600,
+        855
+      ],
+      [
+        1764882000,
+        610
+      ],
+      [
+        1764968400,
+        610
+      ],
+      [
+        1765054800,
+        610
+      ],
+      [
+        1765141200,
+        610
+      ],
+      [
+        1765227600,
+        610
+      ],
+      [
+        1765314000,
+        610
+      ],
+      [
+        1765400400,
+        610
+      ],
+      [
+        1765486800,
+        610
+      ],
+      [
+        1765573200,
+        610
+      ]
+    ]
+  }
+}

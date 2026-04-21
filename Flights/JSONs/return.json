@@ -1,0 +1,337 @@
+{
+  "search_metadata": {
+    "id": "693d97184707f15bbbdb71b5",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/0a29f1bab972ead0/693d97184707f15bbbdb71b5.json",
+    "created_at": "2025-12-13 16:40:56 UTC",
+    "processed_at": "2025-12-13 16:40:56 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=sa&curr=SAR&tfs=CBwQAho_EgoyMDI2LTAxLTE5Ih8KA0RNTRIKMjAyNi0wMS0xORoDSkVEKgJGMzIDMzI0agcIARIDRE1NcgcIARIDSkVEGh4SCjIwMjYtMDEtMjJqBwgBEgNKRURyBwgBEgNETU1CAQFIAXABmAEB&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/0a29f1bab972ead0/693d97184707f15bbbdb71b5.html",
+    "prettify_html_file": "https://serpapi.com/searches/0a29f1bab972ead0/693d97184707f15bbbdb71b5.prettify",
+    "total_time_taken": 1.12
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "sa",
+    "type": "1",
+    "departure_id": "DMM",
+    "arrival_id": "JED",
+    "outbound_date": "2026-01-19",
+    "return_date": "2026-01-22",
+    "travel_class": 1,
+    "adults": 1,
+    "children": 0,
+    "departure_token": "WyJDalJJWDBabk9Fa3lVRXhVWVRoQlIxcE1VVkZDUnkwdExTMHRMUzB0TFhsc2FXc3hOa0ZCUVVGQlIyczViSGhCUjJFMFoydEJFZ1ZHTXpNeU5Cb0xDTVRjQXhBQ0dnTlRRVkk0SEhDQWZ3PT0iLFtbIkRNTSIsIjIwMjYtMDEtMTkiLCJKRUQiLG51bGwsIkYzIiwiMzI0Il1dXQ==",
+    "currency": "SAR",
+    "sort_by": "1"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "King Abdulaziz International Airport",
+            "id": "JED",
+            "time": "2026-01-22 18:35"
+          },
+          "arrival_airport": {
+            "name": "King Fahd International Airport",
+            "id": "DMM",
+            "time": "2026-01-22 20:30"
+          },
+          "duration": 115,
+          "airplane": "Airbus A320",
+          "airline": "flyadeal",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+          "travel_class": "Economy",
+          "flight_number": "F3 317",
+          "ticket_also_sold_by": [
+            "Saudia"
+          ],
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 108 kg"
+          ]
+        }
+      ],
+      "total_duration": 115,
+      "carbon_emissions": {
+        "this_flight": 108000,
+        "typical_for_this_route": 108000,
+        "difference_percent": 0
+      },
+      "price": 610,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+      "booking_token": "WyJDalJJZGpRMFJIRnRTRGRaZUdkQlNVWnRZbmRDUnkwdExTMHRMUzB0TFMxdmEyeHJOa0ZCUVVGQlIyczViSGhuU0ZwVFYwTkJFZ1ZHTXpNeE54b0xDTVRjQXhBQ0dnTlRRVkk0SEhDQWZ3PT0iLFtbIkRNTSIsIjIwMjYtMDEtMTkiLCJKRUQiLG51bGwsIkYzIiwiMzI0Il1dLFtbIkpFRCIsIjIwMjYtMDEtMjIiLCJETU0iLG51bGwsIkYzIiwiMzE3Il1dXQ=="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "King Abdulaziz International Airport",
+            "id": "JED",
+            "time": "2026-01-22 07:55"
+          },
+          "arrival_airport": {
+            "name": "King Fahd International Airport",
+            "id": "DMM",
+            "time": "2026-01-22 09:50"
+          },
+          "duration": 115,
+          "airplane": "Airbus A320",
+          "airline": "flyadeal",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+          "travel_class": "Economy",
+          "flight_number": "F3 303",
+          "ticket_also_sold_by": [
+            "Saudia"
+          ],
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 108 kg"
+          ]
+        }
+      ],
+      "total_duration": 115,
+      "carbon_emissions": {
+        "this_flight": 108000,
+        "typical_for_this_route": 108000,
+        "difference_percent": 0
+      },
+      "price": 610,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+      "booking_token": "WyJDalJJZGpRMFJIRnRTRGRaZUdkQlNVWnRZbmRDUnkwdExTMHRMUzB0TFMxdmEyeHJOa0ZCUVVGQlIyczViSGhuU0ZwVFYwTkJFZ1ZHTXpNd014b0xDTVRjQXhBQ0dnTlRRVkk0SEhDQWZ3PT0iLFtbIkRNTSIsIjIwMjYtMDEtMTkiLCJKRUQiLG51bGwsIkYzIiwiMzI0Il1dLFtbIkpFRCIsIjIwMjYtMDEtMjIiLCJETU0iLG51bGwsIkYzIiwiMzAzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "King Abdulaziz International Airport",
+            "id": "JED",
+            "time": "2026-01-22 13:00"
+          },
+          "arrival_airport": {
+            "name": "King Fahd International Airport",
+            "id": "DMM",
+            "time": "2026-01-22 14:55"
+          },
+          "duration": 115,
+          "airplane": "Airbus A320",
+          "airline": "flyadeal",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+          "travel_class": "Economy",
+          "flight_number": "F3 309",
+          "ticket_also_sold_by": [
+            "Saudia"
+          ],
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 108 kg"
+          ]
+        }
+      ],
+      "total_duration": 115,
+      "carbon_emissions": {
+        "this_flight": 108000,
+        "typical_for_this_route": 108000,
+        "difference_percent": 0
+      },
+      "price": 610,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+      "booking_token": "WyJDalJJZGpRMFJIRnRTRGRaZUdkQlNVWnRZbmRDUnkwdExTMHRMUzB0TFMxdmEyeHJOa0ZCUVVGQlIyczViSGhuU0ZwVFYwTkJFZ1ZHTXpNd09Sb0xDTVRjQXhBQ0dnTlRRVkk0SEhDQWZ3PT0iLFtbIkRNTSIsIjIwMjYtMDEtMTkiLCJKRUQiLG51bGwsIkYzIiwiMzI0Il1dLFtbIkpFRCIsIjIwMjYtMDEtMjIiLCJETU0iLG51bGwsIkYzIiwiMzA5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "King Abdulaziz International Airport",
+            "id": "JED",
+            "time": "2026-01-22 19:55"
+          },
+          "arrival_airport": {
+            "name": "King Fahd International Airport",
+            "id": "DMM",
+            "time": "2026-01-22 21:50"
+          },
+          "duration": 115,
+          "airplane": "Airbus A320",
+          "airline": "flyadeal",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+          "travel_class": "Economy",
+          "flight_number": "F3 319",
+          "ticket_also_sold_by": [
+            "Saudia"
+          ],
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 108 kg"
+          ]
+        }
+      ],
+      "total_duration": 115,
+      "carbon_emissions": {
+        "this_flight": 108000,
+        "typical_for_this_route": 108000,
+        "difference_percent": 0
+      },
+      "price": 610,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+      "booking_token": "WyJDalJJZGpRMFJIRnRTRGRaZUdkQlNVWnRZbmRDUnkwdExTMHRMUzB0TFMxdmEyeHJOa0ZCUVVGQlIyczViSGhuU0ZwVFYwTkJFZ1ZHTXpNeE9Sb0xDTVRjQXhBQ0dnTlRRVkk0SEhDQWZ3PT0iLFtbIkRNTSIsIjIwMjYtMDEtMTkiLCJKRUQiLG51bGwsIkYzIiwiMzI0Il1dLFtbIkpFRCIsIjIwMjYtMDEtMjIiLCJETU0iLG51bGwsIkYzIiwiMzE5Il1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "King Abdulaziz International Airport",
+            "id": "JED",
+            "time": "2026-01-22 23:05"
+          },
+          "arrival_airport": {
+            "name": "King Fahd International Airport",
+            "id": "DMM",
+            "time": "2026-01-23 01:00"
+          },
+          "duration": 115,
+          "airplane": "Airbus A320",
+          "airline": "flyadeal",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+          "travel_class": "Economy",
+          "flight_number": "F3 323",
+          "ticket_also_sold_by": [
+            "Saudia"
+          ],
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 108 kg"
+          ]
+        }
+      ],
+      "total_duration": 115,
+      "carbon_emissions": {
+        "this_flight": 108000,
+        "typical_for_this_route": 108000,
+        "difference_percent": 0
+      },
+      "price": 610,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+      "booking_token": "WyJDalJJZGpRMFJIRnRTRGRaZUdkQlNVWnRZbmRDUnkwdExTMHRMUzB0TFMxdmEyeHJOa0ZCUVVGQlIyczViSGhuU0ZwVFYwTkJFZ1ZHTXpNeU14b0xDTVRjQXhBQ0dnTlRRVkk0SEhDQWZ3PT0iLFtbIkRNTSIsIjIwMjYtMDEtMTkiLCJKRUQiLG51bGwsIkYzIiwiMzI0Il1dLFtbIkpFRCIsIjIwMjYtMDEtMjIiLCJETU0iLG51bGwsIkYzIiwiMzIzIl1dXQ=="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "King Abdulaziz International Airport",
+            "id": "JED",
+            "time": "2026-01-22 09:30"
+          },
+          "arrival_airport": {
+            "name": "King Fahd International Airport",
+            "id": "DMM",
+            "time": "2026-01-22 11:25"
+          },
+          "duration": 115,
+          "airplane": "Airbus A320",
+          "airline": "flyadeal",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+          "travel_class": "Economy",
+          "flight_number": "F3 307",
+          "ticket_also_sold_by": [
+            "Saudia"
+          ],
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 108 kg"
+          ]
+        }
+      ],
+      "total_duration": 115,
+      "carbon_emissions": {
+        "this_flight": 108000,
+        "typical_for_this_route": 108000,
+        "difference_percent": 0
+      },
+      "price": 651,
+      "type": "Round trip",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/F3.png",
+      "booking_token": "WyJDalJJZGpRMFJIRnRTRGRaZUdkQlNVWnRZbmRDUnkwdExTMHRMUzB0TFMxdmEyeHJOa0ZCUVVGQlIyczViSGhuU0ZwVFYwTkJFZ1ZHTXpNd054b0xDTFQ4QXhBQ0dnTlRRVkk0SEhDL2h3RT0iLFtbIkRNTSIsIjIwMjYtMDEtMTkiLCJKRUQiLG51bGwsIkYzIiwiMzI0Il1dLFtbIkpFRCIsIjIwMjYtMDEtMjIiLCJETU0iLG51bGwsIkYzIiwiMzA3Il1dXQ=="
+    }
+  ],
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "DMM",
+            "name": "King Fahd International Airport"
+          },
+          "city": "Dammam",
+          "country": "Saudi Arabia",
+          "country_code": "SA",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSNpP7PauTMe3Zldzh1PIrKY2jtT2QwSW4sKy0MbyNNQgAcFK8jG-OK4j3-mZBOg_cdXucDBJPL5RqkSA",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjRiD_vLDu47tR5Yy0F107GxwXCj_eB48Rl3vmefeYgFmTYscIu2UmsMTlQ9e9KRFzIJl6fkxspDPHIGD9sYs8XExq6sTvcW1EoKXRD44"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "JED",
+            "name": "King Abdulaziz International Airport"
+          },
+          "city": "Jeddah",
+          "country": "Saudi Arabia",
+          "country_code": "SA",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT-Nu9bjeeaG71vYFrB2h0dwFSgZuS0J5c4I1v3H4N008uOr_N6V8ggLvH9mAg9pnPPgK4z1bU8ah1tMg",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRYQEsUVZdpac1DqSzwcMx3FVG0C_k9OuuuVLwbOHuffeYt7fTf7DeMOtBMWiNeNkCJV4a4E49DmIzMMMk_Fa07FrE6lAOmrxcvDNhgoaQ"
+        }
+      ]
+    },
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "JED",
+            "name": "King Abdulaziz International Airport"
+          },
+          "city": "Jeddah",
+          "country": "Saudi Arabia",
+          "country_code": "SA",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT-Nu9bjeeaG71vYFrB2h0dwFSgZuS0J5c4I1v3H4N008uOr_N6V8ggLvH9mAg9pnPPgK4z1bU8ah1tMg",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRYQEsUVZdpac1DqSzwcMx3FVG0C_k9OuuuVLwbOHuffeYt7fTf7DeMOtBMWiNeNkCJV4a4E49DmIzMMMk_Fa07FrE6lAOmrxcvDNhgoaQ"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "DMM",
+            "name": "King Fahd International Airport"
+          },
+          "city": "Dammam",
+          "country": "Saudi Arabia",
+          "country_code": "SA",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSNpP7PauTMe3Zldzh1PIrKY2jtT2QwSW4sKy0MbyNNQgAcFK8jG-OK4j3-mZBOg_cdXucDBJPL5RqkSA",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjRiD_vLDu47tR5Yy0F107GxwXCj_eB48Rl3vmefeYgFmTYscIu2UmsMTlQ9e9KRFzIJl6fkxspDPHIGD9sYs8XExq6sTvcW1EoKXRD44"
+        }
+      ]
+    }
+  ]
+}

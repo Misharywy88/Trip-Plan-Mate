@@ -1,0 +1,45 @@
+{
+  "search_context": {
+    "query_text": "string",
+    "destination": "string | unknown",
+    "notes": "string"
+  },
+  "dates": {
+    "check_in_date": "YYYY-MM-DD | unknown",
+    "check_out_date": "YYYY-MM-DD | unknown",
+    "nights": "number | unknown"
+  },
+  "travelers": {
+    "adults": 2,
+    "children": 0,
+    "children_ages": []
+  },
+  "budget": {
+    "currency": "string",
+    "min_price_per_night": null,
+    "max_price_per_night": null
+  },
+  "filters": {
+    "sort_by": null,
+    "property_types": [],
+    "amenities": [],
+    "rating": null,
+    "hotel_class": [],
+    "brands": [],
+    "free_cancellation": null,
+    "special_offers": null,
+    "eco_certified": null,
+    "vacation_rentals": false,
+    "bedrooms": null,
+    "bathrooms": null
+  },
+  "serpapi": {
+    "gl": "string | null",
+    "hl": "string | null",
+    "currency": "string | null",
+    "no_cache": false,
+    "async": false,
+    "output": "json"
+  },
+  "errors": []
+}
