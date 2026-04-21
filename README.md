@@ -1,98 +1,61 @@
 # ✈️ Trip Plan Mate
 
-An AI-powered travel planning platform that fetches real-time data for flights, hotels, and activities — all in one place.
+A travel planning app built by a 6-person university team. Instead of jumping between Google Flights, Google Hotels, and TripAdvisor, you search once and get everything in one place.
 
 ---
 
-## Overview
+## What it does
 
-Trip Plan Mate eliminates the need to visit multiple travel sites by aggregating live data from Google Flights, Google Hotels, and TripAdvisor into a single Streamlit dashboard. Users input their trip details and preferences, and the app returns personalized, AI-analyzed results in seconds.
+You enter your destination, travel dates, budget, and number of travelers. The app fetches live flight options, available hotels, and top activities/restaurants for that location — then uses AI to analyze and surface the best matches based on your preferences.
 
-Built as a team MVP project at Imam Abdulrahman Bin Faisal University.
-
----
-
-## Features
-
-- **Flight Search** — Real-time outbound and return flights via Google Flights, with leg-by-leg breakdowns, layover info, and direct links to book
-- **Hotel Search** — Available hotels with pricing, ratings, amenities, check-in/out times, and nearby places
-- **Activities & Restaurants** — Top-rated attractions and dining options pulled from TripAdvisor
-- **Experience Preferences** — Sliders to personalize results by nature vs. human-built and historical vs. modern preferences
-- **AI-Powered Analysis** — Anthropic API used to analyze and summarize results intelligently
-- **Interactive Dashboard** — Clean Streamlit UI with horizontal navigation between result categories
+There's also a preferences slider where you can tune results toward natural vs. human-built attractions, or historical vs. modern experiences.
 
 ---
 
-## Tech Stack
+## Tech used
 
-| Category | Technology |
-|---|---|
-| Frontend | Streamlit |
-| Backend / AI | Anthropic API |
-| Data Sources | SerpAPI (Google Flights, Google Hotels, TripAdvisor) |
-| Language | Python |
-| Data Handling | JSON |
+- **Streamlit** — for the UI
+- **SerpAPI** — to pull real-time data from Google Flights, Google Hotels, and TripAdvisor
+- **Anthropic API** — for AI-powered analysis and recommendations
+- **Python** — everything is Python
 
 ---
 
-## Project Structure
+## Project structure
 
 ```
 Trip-Plan-Mate/
-├── main.py                     # Streamlit UI and app entry point
-├── TPM_runner.py               # Orchestrates all pipelines
-├── requirements.txt            # Dependencies
-├── Flights/
-│   ├── travel_flights_pipeline.py
-│   ├── JSONs/                  # Sample flight data
-│   └── prompts/                # AI prompt templates
-├── Hotels/
-│   └── travel_hotels_pipeline.py
-├── hotels/
-│   ├── JSONs/                  # Sample hotel data
-│   └── prompts/                # AI prompt templates
-└── Activities/
-    ├── travel_things_pipeline.py
-    └── prompts/                # AI prompt templates
+├── main.py              # UI and app entry point
+├── TPM_runner.py        # Ties all the pipelines together
+├── requirements.txt
+├── Flights/             # Flight search pipeline + prompts
+├── hotels/              # Hotel search pipeline + prompts
+└── Activities/          # Activities/restaurants pipeline + prompts
 ```
 
 ---
 
-## Getting Started
+## Running it locally
 
-### Prerequisites
-- Python 3.11+
-- A [SerpAPI](https://serpapi.com/) key
-- An [Anthropic](https://www.anthropic.com/) API key
-
-### Installation
+You'll need a SerpAPI key and an Anthropic API key.
 
 ```bash
-# Clone the repository
 git clone https://github.com/Misharywy88/Trip-Plan-Mate.git
 cd Trip-Plan-Mate
-
-# Install dependencies
 pip install -r requirements.txt
 ```
 
-### Configuration
-
-Create a `.env` file in the root directory and add your API keys:
-
+Create a `.env` file:
 ```
-SERPAPI_KEY=your_serpapi_key_here
-ANTHROPIC_API_KEY=your_anthropic_key_here
+SERPAPI_KEY=your_key_here
+ANTHROPIC_API_KEY=your_key_here
 ```
 
-### Run the App
-
+Then run:
 ```bash
 streamlit run main.py
 ```
 
 ---
 
-## Team
-
-Built by a 6-person team as part of a university software engineering course.
+Built as part of a university software engineering course at Imam Abdulrahman Bin Faisal University.
